@@ -12,6 +12,8 @@ pipeline {
             steps {
                 echo "Building.."
                 sh '''
+                cd myapp
+                pip3 install fire
                 '''
             }
         }
