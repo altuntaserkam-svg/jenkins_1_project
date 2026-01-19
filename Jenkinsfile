@@ -13,7 +13,7 @@ pipeline {
                 echo "Building.."
                 sh '''
                 cd myapp
-                pip3 install fire
+                pip3 install fire --break-system-packages
                 '''
             }
         }
